@@ -323,6 +323,9 @@ body.opened .music{opacity:1;transform:none}
 .rsvp p{margin:0;max-width:28rem;text-wrap:balance}
 .rsvp .btn{padding:1.05rem 2.2rem;background:var(--ink);border-color:var(--ink);color:var(--white)}
 .rsvp .btn:hover{background:transparent;color:var(--ink)}
+.rsvp .deadline{display:grid;justify-items:center;gap:.35rem;padding-block:.9rem;border-block:1px solid var(--line);min-width:min(17rem,100%)}
+.rsvp .deadline span{font-family:var(--f-caps);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft)}
+.rsvp .deadline strong{font-family:var(--f-body);font-style:italic;font-weight:400;font-size:clamp(1.45rem,5vw,1.75rem);line-height:1.1;color:var(--ink)}
 .rsvp small{font-family:var(--f-caps);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)}
 
 footer{padding-block:4rem 5rem;display:grid;justify-items:center;gap:1.4rem;text-align:center}
@@ -556,6 +559,10 @@ footer p{margin:0}
     <h2>Confirme sua presença</h2>
     <div class="mask flourish" style="width:min(13rem,56vw)" aria-hidden="true"></div>
     <p>Sua presença tornará este dia ainda mais especial. Pedimos, com carinho, que confirme pelo formulário abaixo.</p>
+    <div class="deadline">
+      <span>Confirme até</span>
+      <strong>05 de janeiro de 2027</strong>
+    </div>
     <!-- Link do Google Forms de confirmação de presença -->
     <a class="btn" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSdYxaD_XMkJIcHOoBJ61-PL8zry7EoBqJ3jWKFTgLQCq9b3Kg/viewform">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>
